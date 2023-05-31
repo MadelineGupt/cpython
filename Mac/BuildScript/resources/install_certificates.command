@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /usr/bin/env python
 
 # install_certifi.py
 #
