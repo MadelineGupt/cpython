@@ -6,6 +6,8 @@
 # for the ssl module.  Uses the certificates provided by the certifi package:
 #       https://pypi.org/project/certifi/
 
+import ssl; ssl._create_default_https_context = ssl._create_stdlib_context
+
 import os
 import os.path
 import ssl
