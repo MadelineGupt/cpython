@@ -1,7 +1,5 @@
 #!/bin/sh
 
-/Library/Frameworks/Python.framework/Versions/@PYVER@/bin/python@PYVER@ << "EOF"
-
 # install_certifi.py
 #
 # sample script to install or update a set of default Root Certificates
